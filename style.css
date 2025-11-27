@@ -393,10 +393,6 @@ footer {
     gap: 1rem;
   }
 
-  .movements {
-    max-height: 60rem;
-  }
-
   .movements__row {
     flex-direction: column;
     gap: 0.8rem;
