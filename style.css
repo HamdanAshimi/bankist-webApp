@@ -393,6 +393,11 @@ footer {
     gap: 1rem;
   }
 
+  .movements {
+    max-height: 45rem; /* 🔥 Added: max height for small screens */
+    overflow-y: auto; /* make it scrollable if content exceeds height */
+  }
+
   .movements__row {
     flex-direction: column;
     gap: 0.8rem;
